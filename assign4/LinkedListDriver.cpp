@@ -34,7 +34,7 @@ int main(){
     list.print();
     sum=list.Sum();
     cout<<"Sum is: "<<sum<<endl;
-    for(int i=5;i>0;i--){
+    for(int i=4;i>0;i--){
         list.remove(i);
         list.print();
     }
